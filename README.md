@@ -561,6 +561,8 @@ There are various groups developing software stacks & apps for the broader ecosy
 
 ## Webring 
 
+A webring (or web ring) is a collection of websites linked together in a circular structure, usually organized around a specific topic. [Join the BCH webring here](https://github.com/BitcoinCash1/bch-webring#getting-started)
+
 <link
   rel="stylesheet"
   href="./assets/css/webring.css"
@@ -570,7 +572,7 @@ There are various groups developing software stacks & apps for the broader ecosy
 <bch-webring site="https://awesomebitcoin.cash"></bch-webring>
 
 
-[Join here](https://github.com/BitcoinCash1/bch-webring#getting-started)
+
 
 ## Endorsements
 
