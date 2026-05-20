@@ -562,9 +562,9 @@ There are various groups developing software stacks & apps for the broader ecosy
 
 <link
   rel="stylesheet"
-  href="https://raw.githubusercontent.com/BitcoinCash1/bch-webring/main/webring.css"
+  href="./assets/css/webring.css"
 />
-<script src="https://raw.githubusercontent.com/BitcoinCash1/bch-webring/main/webring.js"></script>
+<script src="./assets/webring.js"></script>
 
 <bch-webring site="https://awesomebitcoin.cash"></bch-webring>
 
