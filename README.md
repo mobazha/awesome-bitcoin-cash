@@ -37,6 +37,7 @@ Bitcoin Cash (BCH) is a project to scale bitcoin on-chain as an electronic peer-
 + [Script](#script)
 + [Software](#software)
 + [Teams](#teams)
++ [Webring](#webring)
 + [Endorsements](#endorsements)
 
 ## Getting Started
@@ -567,6 +568,9 @@ There are various groups developing software stacks & apps for the broader ecosy
 <script src="./assets/webring.js"></script>
 
 <bch-webring site="https://awesomebitcoin.cash"></bch-webring>
+
+
+[Join here](https://github.com/BitcoinCash1/bch-webring#getting-started)
 
 ## Endorsements
 

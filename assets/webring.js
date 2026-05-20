@@ -85,7 +85,10 @@ class WebRing extends HTMLElement {
           matchedSiteIndex === 0 ? sites.length - 1 : matchedSiteIndex - 1;
         const nextSiteIndex =
           matchedSiteIndex === sites.length - 1 ? 0 : matchedSiteIndex + 1;
-        const randomSiteIndex = this.getRandomInt(0, sites.length - 1);
+        const randomSiteIndex =
+          sites.length > 1
+            ? this.getRandomIndexExcluding(matchedSiteIndex, sites.length)
+            : matchedSiteIndex;
 
         this.shadowRoot.querySelector("#copy").innerHTML = `
           <h2>BCH Webring</h2>
@@ -96,6 +99,11 @@ class WebRing extends HTMLElement {
             <a href="${sites[nextSiteIndex].url}">Next &#8594;</a>
           </nav>`;
       });
+  }
+
+  getRandomIndexExcluding(excludeIndex, length) {
+    const random = this.getRandomInt(0, length - 2);
+    return random >= excludeIndex ? random + 1 : random;
   }
 
   getRandomInt(min, max) {
