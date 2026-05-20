@@ -558,6 +558,15 @@ There are various groups developing software stacks & apps for the broader ecosy
 - [Flowee](https://flowee.org) [[repos]](https://codeberg.org/Flowee) - Team maintaining a non-mining full node and services to access the Bitcoin Cash network. (C++, NodeJs et al)
 - [FullStack Cash](https://fullstack.cash/) [[repos]](https://github.com/Permissionless-Software-Foundation) - Team building web/ipfs apps based on BitBox compatible stack. (Javascript)
 
+## Webring 
+
+<link
+  rel="stylesheet"
+  href="https://raw.githubusercontent.com/BitcoinCash1/bch-webring/main/webring.css"
+/>
+<script src="https://raw.githubusercontent.com/BitcoinCash1/bch-webring/main/webring.js"></script>
+
+<bch-webring site="https://awesomebitcoin.cash"></bch-webring>
 
 ## Endorsements
 
